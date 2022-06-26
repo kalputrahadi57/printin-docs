@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T10:00:00.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gwplpOd5OQGnmEcqOrHH" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-26T10:12:56.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OPW0phV9zhSXwm2IDbRI" version="20.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="823" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -55,7 +55,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-16" value="tampilkan payment receipt&amp;nbsp;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="1510" width="120" height="50" as="geometry" />
+          <mxGeometry x="420" y="431" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-18" value="update document&lt;br&gt;(status=1)" style="whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="550" width="120" height="60" as="geometry" />
@@ -70,7 +70,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-21" value="create transaction&lt;br&gt;(status=0, doc_id=DOC_ID, dev_id=DEV_ID, gross_amt=G_AMT, net_amt=N_AMT,&lt;br&gt;payment_id=PAY_ID" style="whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="1280" width="120" height="110" as="geometry" />
+          <mxGeometry x="420" y="201" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-23" target="AUcS2tF5ko8HKRd4lXUs-13">
           <mxGeometry relative="1" as="geometry" />
@@ -79,7 +79,12 @@
           <mxGeometry x="105" y="750" width="110" height="140" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-31" target="AUcS2tF5ko8HKRd4lXUs-32">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1120" />
+              <mxPoint x="330" y="130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-31" value="Tampilkan document" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="1090" width="120" height="60" as="geometry" />
@@ -88,22 +93,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-32" value="tombol print ditekan?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="1169" width="80" height="80" as="geometry" />
+          <mxGeometry x="440" y="90" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-39" target="AUcS2tF5ko8HKRd4lXUs-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-39" value="pembayaran berhasil?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="1590" width="80" height="80" as="geometry" />
+          <mxGeometry x="440" y="511" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-41" target="AUcS2tF5ko8HKRd4lXUs-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-41" value="update transaction&lt;br&gt;(status=1)" style="whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="1810" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="615" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-43" target="AUcS2tF5ko8HKRd4lXUs-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-43" value="create payment&lt;br&gt;(status=0,&lt;br&gt;transaction_id=TRX_ID)" style="whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="1420" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="341" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-47" target="AUcS2tF5ko8HKRd4lXUs-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-47" value="print document" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="701" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-49" target="AUcS2tF5ko8HKRd4lXUs-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-49" value="update transaction&lt;br&gt;(status=2)" style="whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="791" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-51" target="AUcS2tF5ko8HKRd4lXUs-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-51" value="tampilkan form feedback" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="881" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-53" value="create feedback" style="whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="975" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
