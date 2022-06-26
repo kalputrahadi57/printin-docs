@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T10:12:56.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OPW0phV9zhSXwm2IDbRI" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-26T10:35:47.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="0172RrLUoXFNGWdIuqLm" version="20.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="978" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,35 +13,34 @@
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-3" target="AUcS2tF5ko8HKRd4lXUs-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUcS2tF5ko8HKRd4lXUs-3" value="create document" style="whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-3" value="create transaction&lt;br&gt;(status=0)" style="whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-5" target="AUcS2tF5ko8HKRd4lXUs-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUcS2tF5ko8HKRd4lXUs-5" value="convert doc_id to QR code" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-5" value="convert transactoin_id to QR code" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-7" target="AUcS2tF5ko8HKRd4lXUs-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUcS2tF5ko8HKRd4lXUs-7" value="Tampilkan QR code (doc_id)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-7" value="Tampilkan QR code&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AUcS2tF5ko8HKRd4lXUs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;startArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-18" target="AUcS2tF5ko8HKRd4lXUs-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AUcS2tF5ko8HKRd4lXUs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-9" target="AUcS2tF5ko8HKRd4lXUs-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-9" target="AUcS2tF5ko8HKRd4lXUs-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="610" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-9" value="Waktu scan QR code &amp;lt; 60s?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="440" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AUcS2tF5ko8HKRd4lXUs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-11" target="AUcS2tF5ko8HKRd4lXUs-23">
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-11" target="AUcS2tF5ko8HKRd4lXUs-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-11" value="waktu upload file &amp;lt;&amp;nbsp; 3 menit" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="650" width="80" height="80" as="geometry" />
+          <mxGeometry x="120" y="545" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-13" target="AUcS2tF5ko8HKRd4lXUs-31">
           <mxGeometry relative="1" as="geometry">
@@ -57,19 +56,10 @@
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-16" value="tampilkan payment receipt&amp;nbsp;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="431" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AUcS2tF5ko8HKRd4lXUs-18" value="update document&lt;br&gt;(status=1)" style="whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="550" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AUcS2tF5ko8HKRd4lXUs-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;endArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-9" target="AUcS2tF5ko8HKRd4lXUs-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="520" as="sourcePoint" />
-            <mxPoint x="160" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-21" target="AUcS2tF5ko8HKRd4lXUs-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUcS2tF5ko8HKRd4lXUs-21" value="create transaction&lt;br&gt;(status=0, doc_id=DOC_ID, dev_id=DEV_ID, gross_amt=G_AMT, net_amt=N_AMT,&lt;br&gt;payment_id=PAY_ID" style="whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-21" value="update transaction&lt;br&gt;(status=1, doc_id=DOC_ID, dev_id=DEV_ID, gross_amt=G_AMT, net_amt=N_AMT,&lt;br&gt;payment_id=PAY_ID" style="whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="201" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-23" target="AUcS2tF5ko8HKRd4lXUs-13">
@@ -133,6 +123,12 @@
         </mxCell>
         <mxCell id="AUcS2tF5ko8HKRd4lXUs-53" value="create feedback" style="whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="975" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#F8CECC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUcS2tF5ko8HKRd4lXUs-55" target="AUcS2tF5ko8HKRd4lXUs-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUcS2tF5ko8HKRd4lXUs-55" value="uload document berhasi" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="95" y="650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
